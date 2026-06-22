@@ -3,7 +3,7 @@ module github.com/harvester/pcidevices
 go 1.26
 
 require (
-	github.com/NVIDIA/go-nvlib v0.8.0
+	github.com/NVIDIA/go-nvlib v0.11.0
 	github.com/fsnotify/fsnotify v1.9.0
 	github.com/gorilla/mux v1.8.1
 	github.com/harvester/harvester v1.6.0-rc3
@@ -16,7 +16,7 @@ require (
 	github.com/rancher/lasso v0.2.3
 	github.com/rancher/wrangler/v3 v3.2.2
 	github.com/sirupsen/logrus v1.9.4
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	github.com/u-root/u-root v7.0.0+incompatible
 	github.com/urfave/cli/v2 v2.11.1
 	github.com/vishvananda/netlink v1.3.1-0.20250206174618-62fb240731fa
@@ -162,7 +162,7 @@ require (
 	golang.org/x/net v0.42.0
 	golang.org/x/oauth2 v0.30.0 // indirect
 	golang.org/x/sync v0.16.0 // indirect
-	golang.org/x/sys v0.34.0 // indirect
+	golang.org/x/sys v0.46.0 // indirect
 	golang.org/x/term v0.32.0 // indirect
 	golang.org/x/text v0.25.0 // indirect
 	golang.org/x/time v0.11.0 // indirect
