@@ -12,9 +12,9 @@ require (
 	github.com/jaypipes/pcidb v1.0.0
 	github.com/onsi/ginkgo/v2 v2.23.4
 	github.com/onsi/gomega v1.37.0
-	github.com/rancher/dynamiclistener v0.6.1
+	github.com/rancher/dynamiclistener v0.8.2
 	github.com/rancher/lasso v0.2.3
-	github.com/rancher/wrangler/v3 v3.2.2
+	github.com/rancher/wrangler/v3 v3.7.0
 	github.com/sirupsen/logrus v1.9.4
 	github.com/stretchr/testify v1.10.0
 	github.com/u-root/u-root v7.0.0+incompatible
@@ -22,16 +22,16 @@ require (
 	github.com/vishvananda/netlink v1.3.1
 	github.com/vishvananda/netns v0.0.5
 	google.golang.org/grpc v1.72.2
-	k8s.io/api v0.33.1
-	k8s.io/apimachinery v0.33.1
-	k8s.io/cli-runtime v0.33.1
+	k8s.io/api v0.36.2
+	k8s.io/apimachinery v0.36.2
+	k8s.io/cli-runtime v0.36.2
 	k8s.io/client-go v12.0.0+incompatible
-	k8s.io/kube-aggregator v0.33.1
-	k8s.io/kubectl v0.33.1
+	k8s.io/kube-aggregator v0.36.2
+	k8s.io/kubectl v0.36.2
 	kubevirt.io/api v1.5.0
 	kubevirt.io/client-go v1.5.0
 	kubevirt.io/kubevirt v1.5.0
-	sigs.k8s.io/controller-runtime v0.20.4
+	sigs.k8s.io/controller-runtime v0.24.1
 )
 
 require (
@@ -191,42 +191,42 @@ replace (
 	github.com/openshift/api => github.com/openshift/api v0.0.0-20191219222812-2987a591a72c
 	github.com/openshift/client-go => github.com/openshift/client-go v0.0.0-20200521150516-05eb9880269c
 	github.com/rancher/rancher => github.com/rancher/rancher v0.0.0-20240919204204-3da2ae0cabd1
-	github.com/rancher/rancher/pkg/apis => github.com/rancher/rancher/pkg/apis v0.0.0-20240919204204-3da2ae0cabd1
-	github.com/rancher/rancher/pkg/client => github.com/rancher/rancher/pkg/client v0.0.0-20240919204204-3da2ae0cabd1
-	github.com/rancher/wrangler => github.com/rancher/wrangler/v3 v3.1.0
+	github.com/rancher/rancher/pkg/apis => github.com/rancher/rancher/pkg/apis v0.0.0-20260624083124-ece6c3f66990
+	github.com/rancher/rancher/pkg/client => github.com/rancher/rancher/pkg/client v0.0.0-20260624083124-ece6c3f66990
+	github.com/rancher/wrangler => github.com/rancher/wrangler/v3 v3.7.0
 	github.com/u-root/u-root => github.com/u-root/u-root v0.10.0
 	golang.org/x/net => golang.org/x/net v0.23.0
 	golang.org/x/text => golang.org/x/text v0.3.8
 	google.golang.org/grpc => google.golang.org/grpc v1.56.3
 	google.golang.org/protobuf => google.golang.org/protobuf v1.33.0
-	k8s.io/api => k8s.io/api v0.31.1
-	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.31.1
-	k8s.io/apimachinery => k8s.io/apimachinery v0.31.1
-	k8s.io/apiserver => k8s.io/apiserver v0.31.1
-	k8s.io/cli-runtime => k8s.io/cli-runtime v0.31.1
-	k8s.io/client-go => k8s.io/client-go v0.31.1
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.31.1
-	k8s.io/cluster-bootstrap => k8s.io/cluster-bootstrap v0.31.1
-	k8s.io/code-generator => k8s.io/code-generator v0.31.1
-	k8s.io/component-base => k8s.io/component-base v0.31.1
-	k8s.io/component-helpers => k8s.io/component-helpers v0.31.1
-	k8s.io/controller-manager => k8s.io/controller-manager v0.31.1
-	k8s.io/cri-api => k8s.io/cri-api v0.31.1
-	k8s.io/cri-client => k8s.io/cri-client v0.31.1
-	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.31.1
-	k8s.io/dynamic-resource-allocation => k8s.io/dynamic-resource-allocation v0.31.1
-	k8s.io/endpointslice => k8s.io/endpointslice v0.31.1
-	k8s.io/gengo/v2 => k8s.io/gengo/v2 v2.0.0-20240228010128-51d4e06bde70
-	k8s.io/kube-aggregator => k8s.io/kube-aggregator v0.31.1
-	k8s.io/kube-controller-manager => k8s.io/kube-controller-manager v0.31.1
-	k8s.io/kube-openapi => k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340
-	k8s.io/kube-proxy => k8s.io/kube-proxy v0.31.1
-	k8s.io/kube-scheduler => k8s.io/kube-scheduler v0.31.1
-	k8s.io/kubectl => k8s.io/kubectl v0.31.1
-	k8s.io/kubelet => k8s.io/kubelet v0.31.1
+	k8s.io/api => k8s.io/api v0.36.2
+	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.36.2
+	k8s.io/apimachinery => k8s.io/apimachinery v0.36.2
+	k8s.io/apiserver => k8s.io/apiserver v0.36.2
+	k8s.io/cli-runtime => k8s.io/cli-runtime v0.36.2
+	k8s.io/client-go => k8s.io/client-go v0.36.2
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.36.2
+	k8s.io/cluster-bootstrap => k8s.io/cluster-bootstrap v0.36.2
+	k8s.io/code-generator => k8s.io/code-generator v0.36.2
+	k8s.io/component-base => k8s.io/component-base v0.36.2
+	k8s.io/component-helpers => k8s.io/component-helpers v0.36.2
+	k8s.io/controller-manager => k8s.io/controller-manager v0.36.2
+	k8s.io/cri-api => k8s.io/cri-api v0.36.2
+	k8s.io/cri-client => k8s.io/cri-client v0.36.2
+	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.36.2
+	k8s.io/dynamic-resource-allocation => k8s.io/dynamic-resource-allocation v0.36.2
+	k8s.io/endpointslice => k8s.io/endpointslice v0.36.2
+	k8s.io/gengo/v2 => k8s.io/gengo/v2 v2.0.0-20260408192533-25e2208e0dc3
+	k8s.io/kube-aggregator => k8s.io/kube-aggregator v0.36.2
+	k8s.io/kube-controller-manager => k8s.io/kube-controller-manager v0.36.2
+	k8s.io/kube-openapi => k8s.io/kube-openapi v0.0.0-20260624041617-8f3fa4921821
+	k8s.io/kube-proxy => k8s.io/kube-proxy v0.36.2
+	k8s.io/kube-scheduler => k8s.io/kube-scheduler v0.36.2
+	k8s.io/kubectl => k8s.io/kubectl v0.36.2
+	k8s.io/kubelet => k8s.io/kubelet v0.36.2
 	k8s.io/kubernetes => k8s.io/kubernetes v1.31.1
 	k8s.io/legacy-cloud-providers => k8s.io/legacy-cloud-providers v0.31.1
-	k8s.io/mount-utils => k8s.io/mount-utils v0.31.1
-	k8s.io/pod-security-admission => k8s.io/pod-security-admission v0.31.1
-	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.31.1
+	k8s.io/mount-utils => k8s.io/mount-utils v0.36.2
+	k8s.io/pod-security-admission => k8s.io/pod-security-admission v0.36.2
+	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.36.2
 )
